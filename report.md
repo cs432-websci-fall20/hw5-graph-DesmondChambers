@@ -22,12 +22,23 @@ Use a Python or JavaScript library (as discussed in [Week-09 Graph Vis](https://
 ### Steps
 
 1. Draw the original Karate club graph (before the split) and color the nodes according to the factions they belong to (John A or Mr. Hi).
+#### Answer
+
+[question 1 code](./step1.ipynb)
+
+![Q1 graph ](./q1.png)
 
 2. Run multiple iterations of the Girvan-Newman graph partioning algorithm (see [Week-07 Social Networks](https://docs.google.com/presentation/d/1FzrzxRzslE20nWOjb_uM8jz2xvT1IOOZ9uIoYVjco7s/edit?usp=sharing), slides 90-99) on the Karate Club graph until the graph splits into two connected components.  *How many iterations did it take?*  Your report should include images of all of the iterations.
+
+images are provide for all 11 iterations that it took to split the graph.
 
 3. Compare the connected components of the experimental graph (Step 2) with the connected components of the split Karate club graph (Step 1). *Are they similar?  If not, what is different?*
 
 Note that it is not sufficient just to show the output of three steps.  You must provide an explanation of what is going on and an argument that "proves or disproves that the result of split could have been predicted by the weighted graph of social interactions".
+
+[question 2 code](./step2.ipynb)
+
+The graph ran through 11 iterations and before it was split. The original graph and the graph after iterations are different and several nodes where removed. 
 
 ### Useful Resources
 
